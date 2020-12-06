@@ -1,5 +1,6 @@
 import pika
 import json
+import uuid
 from consumer_settings import pika_connection
 from consumer_settings import pika_queue
 from consumer_settings import json_file_consumer
